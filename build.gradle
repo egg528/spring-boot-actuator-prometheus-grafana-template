@@ -28,6 +28,11 @@ dependencies {
 
     // spring actuator
     implementation "org.springframework.boot:spring-boot-starter-actuator"
+
+
+    // Micrometer Registry Prometheus (Prometheus 형식으로 메트릭을 스크랩 가능하도록)
+    implementation 'io.micrometer:micrometer-registry-prometheus'
+
 }
 
 tasks.named('test') {

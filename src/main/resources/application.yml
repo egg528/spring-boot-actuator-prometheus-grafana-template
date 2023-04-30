@@ -1,0 +1,9 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # shutdown을 제외한 모든 endpoint 설정, endpoint를 개별로 지정할 수도 있음 ex) = beans, loggers
+        exclude: # 특정 endpoint 제외할 수 있음
+  endpoint:
+    shutdown:
+      enabled: true
