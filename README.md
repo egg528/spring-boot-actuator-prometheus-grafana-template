@@ -102,3 +102,4 @@
 ## Reference
 - [공식 문서](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html)
 - [spring actuator + prometheus + grafana](https://www.devkuma.com/docs/prometheus/)
+- [spring actuator 안전하게 사용하기](https://techblog.woowahan.com/9232/)
